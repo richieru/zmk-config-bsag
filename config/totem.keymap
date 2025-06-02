@@ -104,7 +104,7 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
         default_layer { // ColemakDHm
             bindings = <
             &kp Q         &kp W         &kp F            &kp P            &kp B              &kp J         &kp L              &kp U            &kp Y         &kp APOS 
-            &hml LCTRL A  &hml LALT R   &hml LGUI S      &hml LSHFT T     &kp G              &kp M         &hmr RSHFT N       &hmr RGUI E      &hmr LALT I   &hmr RCTRL O
+            &hml LGUI A  &hml LALT R   &hml LCTRL S      &hml LSHFT T     &kp G              &kp M         &hmr RSHFT N       &hmr RCTRL E      &hmr LALT I   &hmr RGUI O
 &kp TAB    &kp Z         &kp X         &hml MEH C       &hml HYP D       &kp V              &kp K         &hmr HYP H         &hmr_meh MEH 0   &dot_morph    &qexcl        &kp TAB
                                         &lt UTIL ESC     &lt NAV BSPC    &sk LSHFT          &kp RET       &lt NUM SPACE      &lt FUN DEL
             >;
@@ -112,7 +112,7 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
         nav_layer { 
             bindings = <
             ___          ___          ___             ___             ___                ___           &kp HOME          &kp UP          &kp END       &kp PAGE_UP 
-            &kp LCTRL     &kp LALT     &kp LGUI       &kp LSHFT       ___                ___           &kp LEFT          &kp DOWN        &kp RIGHT     &kp PAGE_DOWN
+            &kp LGUI     &kp LALT     &kp LCTRL       &kp LSHFT       ___                ___           &kp LEFT          &kp DOWN        &kp RIGHT     &kp PAGE_DOWN
     BACK    ___           ___          &kp MEH         &kp HYP         ___                ___          &kp TILDE         ___             &kp FSLH      ___             FWD
                                        ___            ___             ___                &kp RET       &kp BSPC          &kp DEL
             >;
@@ -120,7 +120,7 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
         num_layer {
             bindings = <
             &kp PLUS     &kp N7       &kp N8          &kp  N9         &kp STAR           ___           ___               ___             ___           ___ 
-            &kp N0       &kp N4       &kp N5          &kp  N6         &kp EQUAL          ___           &kp LSHFT         &kp LGUI        &kp LALT      &kp LCTRL
+            &kp N0       &kp N4       &kp N5          &kp  N6         &kp EQUAL          ___           &kp LSHFT         &kp LCTRL        &kp LALT      &kp LGUI
   &kp LPAR  &kp MINUS    &kp N1       &kp N2          &kp  N3         &kp FSLH           ___           &kp HYP           &kp MEH         ___           ___            &kp RPAR
                                       ___             &kp  DOT        &kp SEMI           ___           ___               ___
             >;
@@ -128,7 +128,7 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
         fun_layer {
             bindings = <
             &kp F12      &kp F7       &kp F8          &kp F9          ___                ___           ___               ___             ___           ___
-            &kp F11      &kp F4       &kp F5          &kp F6          ___                ___           &kp LSHFT         &kp LGUI        &kp LALT      &kp LCTRL 
+            &kp F11      &kp F4       &kp F5          &kp F6          ___                ___           &kp LSHFT         &kp LCTRL        &kp LALT      &kp LGUI 
     ___     &kp F10      &kp F1       &kp F2          &kp F3          ___                ___           &kp HYP           &kp MEH         ___           ___             ___
                                       ___             ___             ___                ___           ___               ___
             >;
@@ -136,7 +136,7 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
         util_layer {
             bindings = <
             &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2    &bt BT_CLR      ___                ___           ___               &kp C_VOL_UP    ___           ___
-            &kp LCTRL     &kp LALT     &kp LGUI       &kp LSHFT      ___                ___           ___                &kp C_VOL_DN    ___           ___ 
+            &kp LGUI     &kp LALT     &kp LCTRL       &kp LSHFT      ___                ___           ___                &kp C_VOL_DN    ___           ___ 
     ___     ___          ___          ___             &kp HYP        ___                ___           ___               ___             ___           ___             ___
                                       ___             ___             ___                ___           ___               &kp C_MUTE
             >;
